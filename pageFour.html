@@ -2,10 +2,9 @@
 -- Darren Fisher 
 -- Ecommerce HW 1
 --
--- To Do:
--- 5 web pages
--- 8 Bootstrap components
--- Nice visual appeal
+-- BootStrap: 
+-- 6. Sliders
+-- 7. Check Box 
  -->
 
  <!doctype html>
@@ -21,13 +20,36 @@
          <style>
              #divOne {
                  background-color: azure;
-                 height: 200px;
+                 height: 100;
+                 font-size: 50px;
                  text-align: center;
-                 line-height: 200px;
                  float: left;
                  width: 100%;
              }
- 
+             #divTwo {
+                 background-color: lightcyan;
+                 height: 100;
+                 font-size: 50px;
+                 text-align: center;
+                 float: left;
+                 width: 100%;
+             }
+             #divThree {
+                 background-color: lightcyan;
+                 height: 50;
+                 font-size: 50px;
+                 text-align: center;
+                 float: left;
+                 width: 33%;
+             }
+             #divFour {
+                 background-color: lightcyan;
+                 height: 100;
+                 font-size: 25px;
+                 text-align: left;
+                 float: left;
+                 width: 100%;
+             }
  
  
          </style>
@@ -37,14 +59,60 @@
          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
  
          <!-- Pages -->
-         <div>
-             <a class="btn btn-primary" href="index.html"  role="button">Page One</a>
-             <a class="btn btn-primary" href="pageTwo.html"   role="button">Page Two</a>
-             <a class="btn btn-primary" href="pageThree.html" role="button">Page Three</a>
-             <a class="btn btn-primary" href="pageFive.html"  role="button">Page Five</a>
-         </div>
+        <div>
+            <a class="btn btn-primary" href="index.html"  role="button">Page One</a>
+            <a class="btn btn-primary" href="pageTwo.html"   role="button">Page Two</a>
+            <a class="btn btn-primary" href="pageThree.html" role="button">Page Three</a>
+            <a class="btn btn-primary" href="pageFive.html"  role="button">Page Five</a>
+        </div>
  
-         <div id="divOne"> Welcome to page Four </div>
+        <div id="divOne"> 
+            Welcome to page Four 
+            </br>
+            <div style="font-size: 25px;">
+                slide these bars to adjust your computer
+            </div>
+        </div>
+
+        <div id="divTwo" style="border-style: dashed;">
+            <div id="divThree" style="border-style: dashed;">
+                <label for="customRange1" class="form-label">CPU Power</label>
+                <input type="range" class="form-range" id="customRange1">
+
+            </div>
+            <div id="divThree" style="border-style: dashed;">
+                <label for="customRange1" class="form-label">GPU Power</label>
+                <input type="range" class="form-range" id="customRange1">
+
+            </div>
+            <div id="divThree" style="border-style: dashed;">
+                <label for="customRange1" class="form-label">Water Cooler</label>
+                <input type="range" class="form-range" id="customRange1">
+            </div>
+
+        </div>
+
+        <div id="divFour">
+            <div style="border-style: dashed;">
+                
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Check if Submit Request to computer
+                    </label>
+                  </div>    
+            </div>
+            <div style="border-style: dashed;">
+                <div class="form-check">
+                    WILL EXPLODE DO NOT CLICK
+                    <a class="btn btn-primary" href="pageFive.html"  role="button">EXPLODE CLICK HERE</a>
+
+                    </label>
+                  </div>    
+            </div>
+
+
+        </div>    
            
      
  

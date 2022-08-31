@@ -3,9 +3,8 @@
 -- Ecommerce HW 1
 --
 -- To Do:
--- 5 web pages
--- 8 Bootstrap components
--- Nice visual appeal
+-- BootStrap: 
+-- 5. Dropdown 
  -->
 
  <!doctype html>
@@ -21,12 +20,17 @@
             <style>
                 #divOne {
                     background-color: azure;
-                    height: 200px;
+                    height: 100;
                     text-align: center;
-                    line-height: 200px;
+                    font-size: 60px;
                     float: left;
                     width: 100%;
                 }
+                #Background{
+                background-color: lightblue;
+                height: 100%;
+                width: 100%;
+            }
             </style>
  
      </head>
@@ -41,11 +45,11 @@
             <a class="btn btn-primary" href="pageFive.html"  role="button">Page Five</a>
         </div>
 
-        <div id="divOne">  Welcome to page Three </div>
+        <div id="divOne"> Welcome to page Three! </div>
 
 
-        <div>
-            <div class="dropdown">
+        <div style="float: left; width: 50%;">
+            <div class="dropdown" style="float: left; width: 50%;">
                 <a style="text-align: center;" class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Dropdown for coding resources
                 </a>
@@ -57,6 +61,17 @@
                 </ul>
               </div>
 
+              <div class="dropdown" style="float: left; width: 50%;">
+                <a style="text-align: center;" class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown for Cooking Resource
+                </a>
+              
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://www.allrecipes.com/recipes/1642/everyday-cooking/">All Recipies</a></li>
+                  <li><a class="dropdown-item" href="https://cooking.nytimes.com/"> Times Cooking </a></li>
+                  <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Cooking"> About Cooking</a></li>
+                </ul>
+              </div>
 
         </div>
  
